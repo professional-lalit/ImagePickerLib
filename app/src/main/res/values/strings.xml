@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ImagePickerLib</string>
+    <string name="pick_from">Pick from</string>
+    <string name="camera">Camera</string>
+    <string name="import_from">Import from</string>
+    <string name="gallery">Gallery</string>
+    <string name="proceed">Proceed</string>
+</resources>

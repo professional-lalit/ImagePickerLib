@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/dimen_size_10">
+
+        <TextView
+            android:id="@+id/txt_title"
+            style="@style/TextStyleWhite"
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:fontFamily="@font/domine_regular"
+            android:padding="@dimen/dimen_size_10"
+            android:text="@string/import_from"
+            android:textSize="@dimen/text_size_18" />
+
+        <RadioGroup
+            android:id="@+id/rg_image_options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_size_20"
+            android:orientation="vertical"
+            android:padding="@dimen/dimen_size_10">
+
+            <RadioButton
+                android:id="@+id/rb_camera"
+                style="@style/ButtonStyleWhite"
+                android:layout_width="match_parent"
+                android:padding="@dimen/dimen_size_10"
+                android:text="@string/camera"
+                android:textColor="@color/black_shade_01" />
+
+            <RadioButton
+                android:id="@+id/rb_gallery"
+                style="@style/ButtonStyleWhite"
+                android:layout_width="match_parent"
+                android:padding="@dimen/dimen_size_10"
+                android:text="@string/gallery"
+                android:textColor="@color/black_shade_01" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_proceed"
+            style="@style/ButtonStyleWhite"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dimen_size_20"
+            android:background="@drawable/button_primary_dark"
+            android:text="@string/proceed" />
+
+    </LinearLayout>
+</RelativeLayout>
